@@ -1,0 +1,574 @@
+body{
+    background-color: rgb(33, 32, 32);
+}
+/*to hide scroll bar*/
+body::-webkit-scrollbar{
+    display: none;
+}
+nav{
+    max-height:auto;
+    max-width: 100%;
+    background: rgb(54, 54, 54);
+    border: solid rgb(180, 175, 175) 0.1vh;
+    border-radius: 1vh;
+    color: aliceblue;
+}
+.elements{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    letter-spacing: 0.1vh;
+}
+#home{
+    margin-left: 0.2vh;
+    text-align: center;
+}
+.home_{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 3vh;
+}
+#home:hover,.home_icon:hover{   
+    width: auto;
+    border: solid rgb(138, 136, 136) 0.3vh;
+    border-radius: 0.8vh;
+}
+.bars:hover{
+    transform: rotateZ(90deg);
+}
+
+/*--------------------------------podigy hreading css---------------------------------*/
+
+.heading{
+    height: 40vh;
+    width: 100%;
+    background-color: blueviolet;
+    color: rgb(184, 144, 222);
+    margin-top:1vh;
+    border: solid 0.1vh rgb(180, 175, 175);
+    border-radius: 2vh;
+}
+.icon{
+    align-items: center;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 1vh;
+}
+.icon:hover{
+    color: blanchedalmond;
+}
+.prodigy{
+    text-transform: uppercase;
+    font-size: 10vh;
+    letter-spacing: 0.2vh;
+    margin: 0%;
+    text-align: center;
+    align-items: center;
+}
+.prody_sub{
+    text-transform: uppercase;
+    font-size: 2vh;
+    text-align: center;
+}
+.prodigy:hover{
+    color: blanchedalmond;
+}
+
+/*---------------------------login and intern page start----------------------------------*/
+
+.position_page{
+    margin-top: 0.5vh;
+    height: 100vh;
+    width: 100%;
+    background:rgb(33, 32, 32);
+    display: flex;
+    flex-direction: row;
+}
+
+/*-------login page--------- */
+
+.login_page{
+    height:100vh;
+    width: 40%;
+    position: relative;
+    top: 0vh;
+    left:1vh;
+    text-transform: uppercase;
+    align-items: center;
+    border: solid 2px blueviolet;
+    border-radius: 2vh;
+    text-align: center;
+}
+.image_logo{
+    height:23vw;
+    width: 23vw;
+    position: relative;
+    top: 3vh;
+    left: 3vh;
+    background:url(prodigy.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius:2%;
+}
+.search_button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.search_button input[type=text],input[type=password]{
+    height: 7vh;
+    width: 92%;
+    margin-top: 6vh;
+    font-size: 2vh;
+    border: none;
+    border-radius: 5%;
+    text-align: center;
+    background:rgba(137, 43, 226, 0.205)
+}
+.search_button input[type=submit]{
+    margin-top: 6vh;
+    border: solid 1px blueviolet;
+    border-radius: 6%;
+    background: rgb(33, 32, 32);
+    color: blueviolet;
+    border-radius: 5vh;
+    padding: .2vh .5vw;
+    height: 6vh;
+    width: 85%;
+    font-size: 2vh;
+}
+.search_button input[type=submit]:hover{
+    height: 6vh;
+    width: 80%;
+}
+#apply{
+    color:rgb(196, 145, 246);
+    font-style:italic;
+    letter-spacing: 0.3vh;
+    text-align: center;
+    margin-top: 6vh;
+}
+#apply:hover{
+    color: blueviolet;
+}
+
+/*  -----------------internship option csss--------------- */
+
+.intern_options{
+    height: 100vh;
+    width: 100%;
+    border: solid 2px blueviolet;
+    border-radius: 2vh;
+    margin-left: 2vh;
+    display: flex;
+    flex-direction:column;
+    align-content: space-evenly;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.intern_options::-webkit-scrollbar{
+    display: none;
+}
+/* -------web dvelopment css -------*/
+.webd,.AI-ML,.datadev{
+    height: 42vh;
+    width: 100%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 1vh;
+}
+.webhead,.AI-MLhead{
+    height: 6vh;
+    width: 44vh;
+    border: solid green 2px;
+    border-radius: 4vh;
+    background: blueviolet;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 3vh;
+    color: rgb(184, 144, 222);
+}
+.websubhd,.AI-MLsubhd{
+    height: 5vh;
+    width: 5vh;
+    border: solid green 2px;
+    border-radius: 13vh;
+    background: linear-gradient(45deg, #33fff0, transparent);
+    position: relative;
+    top: 0vh;
+    left: -4vh;
+ }
+
+/* ------software page -------------*/
+.softwaredev{
+    height: 42vh;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+}
+.softwarehead {
+        height: 6vh;
+        width: 43vh;
+        border: solid green 2px;
+        border-radius: 4vh;
+        background: blueviolet;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        font-size: 3vh;
+        color: rgb(184, 144, 222);
+}
+.softwaresubhd {
+        height: 5vh;
+        width: 5vh;
+        border: solid green 2px;
+        border-radius: 13vh;
+        background: linear-gradient(45deg, #33fff0, transparent);
+         position: relative;
+        top: 0vh;
+        left: 0vh;
+ }
+/* ----------- android page --------- */
+.androiddev{
+    height:42vh;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+}
+.androidhead {
+        height: 6vh;
+        width: 42vh;
+        border: solid green 2px;
+        border-radius: 4vh;
+        background: blueviolet;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        font-size: 3vh;
+        color: rgb(184, 144, 222);
+}
+.androidsubhd {
+        height: 5vh;
+        width: 5vh;
+        border: solid green 2px;
+        border-radius: 13vh;
+        background: linear-gradient(45deg, #33fff0, transparent);
+         position: relative;
+        top: 0vh;
+        left: 0vh;
+ }
+ /* ------- data science --------*/
+ .datahead{
+    height: 6vh;
+    width: 44vh;
+    border: solid green 2px;
+    border-radius: 4vh;
+    background: blueviolet;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 3vh;
+    color: rgb(184, 144, 222)
+ }
+ .datasubhd{
+    height: 5vh;
+    width: 5vh;
+    border: solid green 2px;
+    border-radius: 13vh;
+    background: linear-gradient(45deg, #33fff0, transparent);
+     position: relative;
+    top: 0vh;
+    left: -9vh;
+ }
+ /* ---------------------------- review page starts form here ---------------------- */
+
+.previous{
+    height: 40vh;
+    width: 100%;
+    background: blueviolet;
+    margin-top: 1vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: solid .1vh rgb(180, 175, 175);
+    border-radius: 2vh;
+}
+.previous::-webkit-scrollbar{
+    display: none;
+}
+.previous h2{
+    text-align: center;
+    letter-spacing: 1vh;
+    text-transform: uppercase;
+    color: rgb(199, 148, 179);
+    font-weight: 100;
+    font-family: monospace;
+    font-size: 6vh;
+}
+.intern{
+    margin: 1vh;
+    height: 9vh;
+    width: 100%;
+    color: rgb(209, 220, 238);
+    letter-spacing: 0.21vh;
+    text-align:center;
+    text-transform: capitalize;
+}
+ul{
+    list-style: none;
+}
+.ci{
+    width:100%;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    gap: 1vh;
+}
+.ci_{
+    height: 4vh;
+    width: 4vh;
+    background: rgb(101, 99, 99);
+    border: solid .1vh green;
+    border-radius: 2vh;
+    color: rgb(181, 176, 176);
+    letter-spacing: 0.1vh;
+}
+button{
+    height: 6vh;
+    width: 23vh;
+    border-radius: 4vh;
+    background: linear-gradient(45deg, #33fff0c2, transparent);
+    color: azure;
+    text-align: center;
+    text-transform: uppercase;
+}
+/*--------------------------------footer elements------------------------------------*/
+.foot{
+    height: 40vh;
+    width: 100%;
+    background: blueviolet;
+    margin-top: 0.5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.foot h2{
+    color:rgb(199, 148, 179);
+    text-transform: uppercase;
+    font-size: 3vh;
+    letter-spacing: 0.5vh;
+}
+.foot p{
+    align-items: center;
+    color:azure;
+    text-transform: capitalize;
+    letter-spacing: 0.1vh;
+    font-size: 2vh;
+}
+.foot p:hover{
+    color:rgb(147, 147, 246);
+    font-size: 2.2vh;
+}
+.foot_{
+    height: 6vh;
+    width: 100%;
+    background: blueviolet;
+    margin-top: .1vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+/*--------------------------resposive for mobile ---------------------------------------*/
+
+@media (max-width:400px) {
+    /*----------navigation bar--------*/
+    nav{
+        height:6vh;
+        width: 100%;
+        font-size: 1vh;
+    }
+    .elements{
+        height: 6vh;
+        width: 100%;
+        letter-spacing: normal;
+    }
+    .icon{
+        position: relative;
+        top: 2vh;
+        left: -1vh;
+        font-size: 10vh;
+    }
+    .prodigy{
+        font-size: 6vh;
+        position: relative;
+        top:2vh;
+        left: 0vh;
+    }
+    .prody_sub{
+        position: relative;
+        top: 3vh;
+        left: 0vh;
+    }
+    .home_{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap:none;
+    }
+    /*--------------------------- login page  ------------------*/
+    .position_page{
+        display: flex;
+        flex-direction: column;
+    }
+    .login_page{
+        height: 56vh;
+        width: 100%;
+        margin-top: 1vh;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: flex-start;
+        position: relative;
+        top: -1vh;
+        left: 0vh;
+    }
+    .image_logo{
+        height: 28vw;
+        width: 22vw;
+        position: relative;
+        top: 3vh;
+        left: 17vh;
+    }
+    .search_button{
+        height: 55vh;
+        width: 100%;
+        position: relative;
+        top: 4vh;
+    }
+    .search_button input[type=text],input[type=password]{
+        height: 8vh;
+        width: 82%;
+        margin-top: 3vh;
+    }
+    .search_button input[type=submit]{
+        height: 8vh;
+        width: 64%;
+        margin-top: 3vh;
+    }
+    .search_button input[type=submit]:hover{
+        height: 6vh;
+        width: 80%;
+    }
+    #apply{
+        margin-top: 3vh;
+    }
+    /* ------------intern options ------- */
+    .intern_options{
+        margin-left: 0vh;
+        height:100%;
+        width: 100%;
+    }
+    .webhead,.AI-MLhead{
+        height: 6vh;
+        width: 80%;
+    }
+    .websubhd,.AI-MLsubhd{
+        height: 10vw;
+        width: 10vw;
+        position: relative;
+        top: 0vh;
+        left: 0vh;
+    }
+    .softwarehead,.androidhead,.datahead{
+        height: 6vh;
+        width: 80%;
+    }
+    .androidsubhd{
+        height: 10vw;
+        width: 13vw;
+        position: relative;
+        top: 0vh;
+        left: 0vh;
+    }
+    .softwaresubhd{
+        height: 9vw;
+        width: 12vw;
+        position: relative;
+        top: 0vh;
+        left: 0vh;
+    }
+    .datahead{
+        width: 67%;
+    }
+    .datasubhd{
+        height: 10vw;
+        width: 10vw;
+        position:relative;
+        top: 0vh;
+        left:-2vh;
+    }
+   
+/*--------------------review page-----------*/
+.previous{
+     overflow-x: hidden;
+     overflow-y: scroll;
+     margin-top: .5vh;
+     border: none;
+     border-radius: 0vh;
+ }
+ .previous h2{
+    font-size: 4vh;
+ }
+.intern{
+     width: 100%;
+     margin: -3vh;
+     text-transform: capitalize;
+}
+li p{
+    font-size: 2vh;
+}
+li h3{
+    font-size: 1em;
+    text-transform: capitalize;
+}
+.ci{
+    gap: 1vh;
+}
+button{
+    width: 15vh;
+    left: 7vh;
+    top: 3vh;
+}
+.foot{
+    height: 26vh;
+}
+.foot h2 {
+    font-size: 2.5vh;
+    letter-spacing: 0.2vh;
+}
+.foot p {
+    letter-spacing: 0vh;
+    font-size: 1.4vh;
+}
+.foot_{
+    height: 8vh;
+    margin-top:.5vh;
+}
+}
