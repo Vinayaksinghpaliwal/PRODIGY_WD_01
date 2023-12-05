@@ -1,0 +1,170 @@
+<!DOCTYpE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iptmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="page.css">
+</head>
+<body>
+    <nav>
+        <div class="elements">
+            <div class="home_">
+              <div class="home_icon">
+                <i class="fa-solid fa-house"></i>
+              </div>
+              <p id="home">home</p>
+            </div>
+            <div class="about">
+              <p id="home">about</p>
+            </div>
+            <div class="reach">
+                <p id="home">reach us</p>
+            </div>
+            <div class="internship">
+                <p id="home">internships</p>
+            </div>
+            <div class="faq">
+                <p id="home">faq</p>
+            </div>
+            <div class="verify">
+                <p id="home">verify</p>
+            </div>
+            <div class="bars">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <!--heading -->
+    <div class="heading">
+        <div class="icon">
+            <i class="fa-solid fa-lightbulb"></i>
+        </div>
+        <p class="prodigy">prodigy  infotech</p>
+        <p class="prody_sub">providing world class e-learning experience with real world interships</p>
+    </div>
+    <!--heading end-->
+
+    <!--login page and intern page start-->
+    <div class="position_page">
+        <!--login page-->
+        <div class="login_page">
+            <div class="image_logo"></div>
+            <div class="search_button">
+                <input type="text" placeholder="username or email">
+                <input type="password" placeholder="Enter your password">
+                <input type="submit">      
+                <p id="apply">signup or login</p>
+            </div>
+        </div>
+        <!--internship list-->
+        <div class="intern_options">
+            <div class="intern_list">
+                <!--web devlopment list-->
+                <div class="webd">
+                    <div class="webhead">
+                        <div class="websubhd"></div>
+                        <p>web development</p>
+                    </div>
+                </div>
+                <div class="AI-ML">
+                    <div class="AI-MLhead">
+                        <div class="AI-MLsubhd"></div>
+                        <P>machine learning</P>
+                    </div>
+                </div>
+                <div class="softwaredev">
+                    <div class="softwarehead">
+                        <div class="softwaresubhd"></div>
+                        <p>software development</p>
+                    </div>
+                </div>
+                <div class="androiddev">
+                    <div class="androidhead">
+                        <div class="androidsubhd"></div>
+                        <p>android development</p>
+                    </div>    
+                </div>
+                <div class="datadev">
+                    <div class="datahead">
+                      <div class="datasubhd"></div>
+                      <p>data science </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--previous element-->
+    <div class="previous">
+        <h2>our interns</h2>
+        <div class="intern">
+            <ul>
+                <li>
+                    <div class="ci">
+                        <div class="ci_"><i class="fa-solid fa-user"></i></div>
+                        <h3>shivang</h3>
+                    </div>
+                    <p>i am doing my first ineternship in eb development in this experience is to good especially at here</p>
+                </li>
+                <li>
+                    <div class="ci">
+                        <div class="ci_"><i class="fa-solid fa-user"></i></div>
+                        <h3>vishal</h3>
+                    </div>
+                    <p>i am doing my first ineternship in eb development in this experience is to good especially at here</p>
+                </li>
+                <li>
+                    <div class="ci">
+                        <div class="ci_"><i class="fa-solid fa-user"></i></div>
+                        <h3>alok</h3>
+                     </div>
+                    <p>i am doing my first ineternship in eb development in this experience is to good especially at here</p>
+                </li>
+                <li>
+                    <div class="ci">
+                        <div class="ci_"><i class="fa-solid fa-user"></i></div>
+                        <h3>vinayak</h3>
+                    </div>
+                    <p>i am doing my first ineternship in eb development in this experience is to good especially at here</p>
+                </li>
+                 <li>
+                    <button>join as intren </button>
+                </li>
+                </ul>
+        </div>
+    </div>
+    <!--footer elements -->
+    <footer class="foot">
+        <div class="about">
+            <h2>about</h2>
+            <p>home</p>
+            <p>faq</p>
+            <p>intertnship</p>
+            <p>verify</p>
+        </div>
+        <div class="social">
+            <h2>social</h2>
+            <p>github</p>
+            <p>linkdin</p>
+            <p>telegram</p>
+            <p>instagram</p>
+            <p>twitter</p>
+        </div>
+        <div class="internships">
+            <h2>internship</h2>
+            <p>web development intren</p>
+            <p>data science intern</p>
+            <p>ai ml intern</p>
+            <p>android development intern</p>
+            <p>software development</p>
+        </div>    
+    </footer>
+    <footer class="foot_">
+        <p>privacy policy</p>
+        <p>@copyright</p>
+        <p>terms and condtion</p>
+        <p>code of conduct</p>
+    </footer>
+</body>
+</html>
